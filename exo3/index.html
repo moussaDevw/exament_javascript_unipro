@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--<div>
+        <div>
+            <div>
+                <form id="form-senegal">
+                    <div>
+                        <h4>Senegal est un pays du continent:</h4>
+                        <div>
+                          <input type="radio" id="europeen" name="pays" class="pays" value="europeen" >
+                          <label for="europeen">Europeen</label>
+                        </div>
+                        
+                        <div>
+                          <input type="radio" id="asiatique" name="pays" class="pays" value="asiatique">
+                          <label for="asiatique">Asiatique</label>
+                        </div>
+                        
+                        <div>
+                          <input type="radio" id="africain" name="pays" class="pays" value="africain">
+                          <label for="africain">Africain</label>
+                        </div>
+                        <div>
+                          <input type="radio" id="americain" name="pays" class="pays" value="americain">
+                          <label for="americain">Americain</label>
+                        </div>
+                    </div>
+                    <div>
+                      <h4>Bob Marley est ?</h4>
+                      <div>
+                          <input type="radio" id="acteur" name="artiste" class="artiste" value="acteur" >
+                          <label for="acteur">Acteur de cinema</label>
+                        </div>
+                        
+                        <div>
+                          <input type="radio" id="musicien" name="artiste" class="artiste" value="musicien">
+                          <label for="musicien">Musicien</label>
+                        </div>
+                        
+                        <div>
+                          <input type="radio" id="footballeur" name="artiste" class="artiste" value="footballeur">
+                          <label for="footballeur">Footballeur</label>
+                        </div>
+                        <div>
+                          <input type="radio" id="ecrivain" name="artiste" class="artiste" value="ecrivain">
+                          <label for="ecrivain">Ecrivain</label>
+                        </div>
+                    </div>
+                    <div>
+                      <h4>Bombardien est un ?</h4>
+                    <div>
+                        <input type="radio" id="acteur" name="lutteur" class="lutteur" value="acteur" >
+                        <label for="acteur">Acteur de cinema</label>
+                      </div>
+                      
+                      <div>
+                        <input type="radio" id="footballeur" name="lutteur" class="lutteur" value="footballeur">
+                        <label for="footballeur">Footballeur</label>
+                      </div>
+                      
+                      <div>
+                        <input type="radio" id="ingenieur" name="lutteur" class="lutteur" value="ingenieur">
+                        <label for="ingenieur">Ingenieur</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="lutteur" name="lutteur" class="lutteur" value="lutteur">
+                        <label for="lutteur">Lutteur</label>
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Bill Cliton est le president de la republique du ?</h4>
+                    <div>
+                       <span>a.</span> <input type="radio" id="senegal" name="president" class="president" value="senegal" >
+                        <label for="senegal">Senegal</label>
+                      </div>
+                      
+                      <div>
+                        <span>b.</span> <input type="radio" id="gambie" name="president" class="president" value="gambie">
+                        <label for="gambie">Gambie</label>
+                      </div>
+                      
+                      <div>
+                        <span>c.</span> <input type="radio" id="guinee" name="president" class="president" value="guinee">
+                        <label for="guinee">Guinee</label>
+                      </div>
+                      <div>
+                        <span>d.</span> <input type="radio" id="usa" name="president" class="president" value="usa">
+                        <label for="usa">USA</label>
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Youssou Ndour est ?</h4>
+                    <div>
+                       <span>a.</span> <input type="radio" id="danseur" name="musicien" class="mbalax" value="danseur" >
+                        <label for="danseur">Un Danseur</label>
+                      </div>
+                      
+                      <div>
+                        <span>b.</span> <input type="radio" id="chanteur" name="musicien" class="mbalax" value="chanteur">
+                        <label for="chanteur">Un Chanteur</label>
+                      </div>
+                      
+                      <div>
+                        <span>c.</span> <input type="radio" id="mecanicien" name="musicien" class="mbalax" value="mecanicien">
+                        <label for="mecanicien">Un Mecanicien</label>
+                      </div>
+                      <div>
+                        <span>d.</span> <input type="radio" id="informaticien" name="musicien" class="mbalax" value="informaticien">
+                        <label for="informaticien">Un informaticien</label>
+                      </div>
+                    </div>
+                    <button></button>
+                </form>
+            </div>
+        </div>
+        <span id="resultat"></span>
+    </div>-->
+  <form name="quest">
+    <h4>Senegal est un pays du continent ?</h4>
+      <br><input type="radio" name="pays" value="europeen" onclick="Engine(1, this.value)">a.
+      Europeen
+      <br><input type="radio" name="pays" value="asiatique" onclick="Engine(1, this.value)">b.
+      Asiatique
+      <br><input type="radio" name="pays" value="africain" onclick="Engine(1, this.value)">c.
+      Africain
+      <br><input type="radio" name="pays" value="americain" onclick="Engine(1, this.value)">d.
+      Americain
+      <p>
+      <h4>Bob Marley est ?</h4>
+      <br><input type="radio" name="chanteur" value="acteur" onclick="Engine(2, this.value)">a.
+      Acteur de cinéma
+      <br><input type="radio" name="chanteur" value="musicien" onclick="Engine(2, this.value)">b.
+      Musicien
+      <br><input type="radio" name="chanteur" value="chanteur" onclick="Engine(2, this.value)">c.
+      Chanteur
+      <br><input type="radio" name="chanteur" value="ecrivain" onclick="Engine(2, this.value)">d.
+      Ecrivain
+      <p>
+      <h4>Bombardien est un ?</h4>
+      <br><input type="radio" name="lutteur" value="acteur" onclick="Engine(3, this.value)">a.
+      Acteur de cinéma
+      <br><input type="radio" name="lutteur" value="footballeur" onclick="Engine(3, this.value)">b.
+      Footballeur
+      <br><input type="radio" name="lutteur" value="ingenieur" onclick="Engine(3, this.value)">c.
+      Ingenieur
+      <br><input type="radio" name="lutteur" value="lutteur" onclick="Engine(3, this.value)">d.
+      Lutteur
+      <p>
+        <h4>Bill Cliton est le president de la republique du ?</h4>
+      <br><input type="radio" name="president" value="senegal" onclick="Engine(4, this.value)">a.
+      Senegal
+      <br><input type="radio" name="president" value="gambie" onclick="Engine(4, this.value)">b.
+      Gambie
+      <br><input type="radio" name="president" value="guinee" onclick="Engine(4, this.value)">c.
+      Guinee
+      <br><input type="radio" name="president" value="usa" onclick="Engine(4, this.value)">d.
+      USA
+      <p>
+        <h4>Youssou Ndour est ?</h4>
+      <br><input type="radio" name="chanteur-mbalax" value="danseur" onclick="Engine(5, this.value)">a.
+      Danseur
+      <br><input type="radio" name="chanteur-mbalax" value="chanteur" onclick="Engine(5, this.value)">b.
+      Chanteur
+      <br><input type="radio" name="chanteur-mbalax" value="mecanicien" onclick="Engine(5, this.value)">c.
+      Mecanicien
+      <br><input type="radio" name="chanteur-mbalax" value="informaticien" onclick="Engine(5, this.value)">d.
+      informaticien
+      <br>&nbsp;
+      <p><input type="button" name="Resultats" id="btn" value="Résultats">
+      <br>&nbsp;
+      <p>
+      </form>
+    <script src="index.js"></script>
+</body>
+</html>

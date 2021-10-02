@@ -1,0 +1,20 @@
+1. Laquelle des options suivantes est un énoncé de déclaration de variable valide ?
+a) Var _firstname
+
+2. Lequel des symboles suivants sert d’opérateur bit-à-bit AND ?
+a) &
+
+3. Quelle syntaxe suivante est correcte pour l’opérateur ternaire conditionnel ?
+
+c) (condition) ? val1 : val2
+
+4. Quel sera le résultat du programme suivant ,
+Var i;
+for(i=0;i<10;i=i+2);
+{
+alert(i);
+}
+    b) Valeur 10 est affichée.
+
+5. Lequel des événements suivants est généré lorsque la valeur
+    b) onChange()

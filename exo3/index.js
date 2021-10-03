@@ -47,10 +47,12 @@ function Engine(question, reponse) {
 //formulaire de validation
 
 let btnClick = document.getElementById('btn')
- 
+document.getElementsByTagName('form')[0].addEventListener('submit',(e)=>{
+    e.preventDefault()
+})
 function NextLevel () 
 {
-    alert(`votre score est ${score}`)
+    document.getElementById('resultats').innerHTML = `votre score est ${score}`
  
     faite = new Array;
 

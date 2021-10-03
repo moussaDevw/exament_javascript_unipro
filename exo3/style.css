@@ -1,0 +1,23 @@
+#bloc_site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+}
+
+#btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 20%;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+#resultats{
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+    color:white;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 20px;
+}
